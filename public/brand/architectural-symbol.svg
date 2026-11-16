@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="none">
+  <defs>
+    <!-- Graduated monochrome tonal gradients tuned for crisp Floyd-Steinberg stipple dithering -->
+    <radialGradient id="coreGlow" cx="50%" cy="46%" r="50%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="1" />
+      <stop offset="45%" stop-color="#A1A1AA" stop-opacity="0.92" />
+      <stop offset="78%" stop-color="#4A4A52" stop-opacity="0.72" />
+      <stop offset="100%" stop-color="#18181B" stop-opacity="0.2" />
+    </radialGradient>
+    <linearGradient id="plateSlopeA" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.98" />
+      <stop offset="52%" stop-color="#8A8A94" stop-opacity="0.82" />
+      <stop offset="100%" stop-color="#2A2A30" stop-opacity="0.45" />
+    </linearGradient>
+    <linearGradient id="plateSlopeB" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#D4D4D8" stop-opacity="0.92" />
+      <stop offset="58%" stop-color="#6E6E78" stop-opacity="0.75" />
+      <stop offset="100%" stop-color="#18181B" stop-opacity="0.3" />
+    </linearGradient>
+  </defs>
+
+  <!-- Subtle Outer Architectural Isometric Field -->
+  <polygon
+    points="128,18 232,80 232,176 128,238 24,176 24,80"
+    fill="url(#coreGlow)"
+    fill-opacity="0.35"
+    stroke="#FFFFFF"
+    stroke-width="6"
+  />
+
+  <!-- Upper Isometric Synthesis Plane -->
+  <polygon
+    points="128,38 210,86 128,134 46,86"
+    fill="url(#plateSlopeA)"
+    stroke="#FFFFFF"
+    stroke-width="5"
+  />
+
+  <!-- Left Architectural Plane -->
+  <polygon
+    points="46,96 122,140 122,216 46,172"
+    fill="url(#plateSlopeB)"
+    stroke="#E4E4E7"
+    stroke-width="4.5"
+  />
+
+  <!-- Right Architectural Plane -->
+  <polygon
+    points="210,96 134,140 134,216 210,172"
+    fill="url(#plateSlopeA)"
+    fill-opacity="0.7"
+    stroke="#E4E4E7"
+    stroke-width="4.5"
+  />
+
+  <!-- High-Contrast Connected Axis & Nodes -->
+  <circle cx="128" cy="136" r="18" fill="#FFFFFF" />
+  <circle cx="128" cy="86" r="9" fill="#FFFFFF" />
+  <circle cx="84" cy="156" r="8" fill="#E4E4E7" />
+  <circle cx="172" cy="156" r="8" fill="#E4E4E7" />
+
+  <line x1="128" y1="18" x2="128" y2="238" stroke="#FFFFFF" stroke-width="3.5" stroke-opacity="0.9" />
+  <line x1="46" y1="86" x2="210" y2="172" stroke="#FFFFFF" stroke-width="2.5" stroke-opacity="0.7" />
+  <line x1="210" y1="86" x2="46" y2="172" stroke="#FFFFFF" stroke-width="2.5" stroke-opacity="0.7" />
+</svg>

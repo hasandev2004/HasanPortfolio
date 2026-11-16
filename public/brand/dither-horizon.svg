@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 24" fill="none">
+  <defs>
+    <linearGradient id="seamFade" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.06" />
+      <stop offset="18%" stop-color="#8A8A94" stop-opacity="0.48" />
+      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="0.88" />
+      <stop offset="82%" stop-color="#8A8A94" stop-opacity="0.48" />
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.06" />
+    </linearGradient>
+    <linearGradient id="seamV" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.08" />
+      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="0.95" />
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.08" />
+    </linearGradient>
+  </defs>
+  <rect x="0" y="2" width="640" height="20" fill="url(#seamFade)" />
+  <rect x="40" y="9" width="560" height="6" fill="url(#seamV)" fill-opacity="0.8" />
+</svg>

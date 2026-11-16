@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="720" viewBox="0 0 960 720" fill="none">
+  <defs>
+    <pattern id="grid40" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#FAF9F6" stroke-opacity="0.045" stroke-width="1"/>
+    </pattern>
+    <radialGradient id="studioGlow" cx="78%" cy="18%" r="65%">
+      <stop offset="0%" stop-color="#FAF9F6" stop-opacity="0.11"/>
+      <stop offset="55%" stop-color="#141418" stop-opacity="0.02"/>
+      <stop offset="100%" stop-color="#09090B" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Ground Surface -->
+  <rect width="960" height="720" fill="#09090B"/>
+  <rect width="960" height="720" fill="url(#grid40)"/>
+  <rect width="960" height="720" fill="url(#studioGlow)"/>
+
+  <!-- Main Architectural Frame -->
+  <rect x="44" y="44" width="872" height="632" rx="20" fill="#111115" fill-opacity="0.92" stroke="#FAF9F6" stroke-opacity="0.2" stroke-width="1.25"/>
+
+  <!-- Top Index Strip -->
+  <text x="80" y="96" fill="#B4B4BC" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="14" font-weight="600" letter-spacing="2.2">
+    01 · OWNED SOFTWARE PRODUCT
+  </text>
+  <text x="880" y="96" text-anchor="end" fill="#B4B4BC" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="14" font-weight="500" letter-spacing="1.4">
+    IN DEVELOPMENT
+  </text>
+  <line x1="80" y1="120" x2="880" y2="120" stroke="#FAF9F6" stroke-opacity="0.14" stroke-width="1"/>
+
+  <!-- Product Title & Architectural Mark -->
+  <text x="80" y="184" fill="#FAF9F6" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="48" font-weight="600" letter-spacing="-1.2">
+    SmartReach AI
+  </text>
+  <text x="80" y="220" fill="#B4B4BC" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="24">
+    Structured outreach behind human approval.
+  </text>
+
+  <!-- Wireframe Architectural Cube Motif Top-Right -->
+  <g transform="translate(796, 152)" stroke="#FAF9F6" stroke-opacity="0.72" stroke-width="1.5">
+    <polygon points="40,0 76,20 76,60 40,80 4,60 4,20" fill="#FAF9F6" fill-opacity="0.04"/>
+    <polyline points="4,20 40,40 76,20" fill="none"/>
+    <line x1="40" y1="40" x2="40" y2="80"/>
+    <circle cx="40" cy="40" r="3.5" fill="#FAF9F6"/>
+  </g>
+
+  <!-- 6-Stage Operator Pipeline -->
+  <!-- Row 1 -->
+  <g transform="translate(80, 266)">
+    <rect width="254" height="128" rx="12" fill="#FFFFFF" fill-opacity="0.03" stroke="#FAF9F6" stroke-opacity="0.15"/>
+    <text x="22" y="34" fill="#B4B4BC" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="13" font-weight="600">01</text>
+    <text x="232" y="34" text-anchor="end" fill="#8E8E98" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="12">Sourcing</text>
+    <text x="22" y="76" fill="#FAF9F6" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="18" font-weight="600">Business Discovery</text>
+    <text x="22" y="102" fill="#B4B4BC" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="13">OpenStreetMap &amp; Overpass</text>
+  </g>
+
+  <g transform="translate(353, 266)">
+    <rect width="254" height="128" rx="12" fill="#FFFFFF" fill-opacity="0.03" stroke="#FAF9F6" stroke-opacity="0.15"/>
+    <text x="22" y="34" fill="#B4B4BC" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="13" font-weight="600">02</text>
+    <text x="232" y="34" text-anchor="end" fill="#8E8E98" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="12">Extraction</text>
+    <text x="22" y="76" fill="#FAF9F6" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="18" font-weight="600">Contact Parsing</text>
+    <text x="22" y="102" fill="#B4B4BC" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="13">Official Business Websites</text>
+  </g>
+
+  <g transform="translate(626, 266)">
+    <rect width="254" height="128" rx="12" fill="#FFFFFF" fill-opacity="0.03" stroke="#FAF9F6" stroke-opacity="0.15"/>
+    <text x="22" y="34" fill="#B4B4BC" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="13" font-weight="600">03</text>
+    <text x="232" y="34" text-anchor="end" fill="#8E8E98" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="12">Diagnostics</text>
+    <text x="22" y="76" fill="#FAF9F6" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="18" font-weight="600">Website Auditing</text>
+    <text x="22" y="102" fill="#B4B4BC" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="13">Technical Signal Review</text>
+  </g>
+
+  <!-- Row 2 -->
+  <g transform="translate(80, 416)">
+    <rect width="254" height="128" rx="12" fill="#FFFFFF" fill-opacity="0.03" stroke="#FAF9F6" stroke-opacity="0.15"/>
+    <text x="22" y="34" fill="#B4B4BC" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="13" font-weight="600">04</text>
+    <text x="232" y="34" text-anchor="end" fill="#8E8E98" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="12">Scoring</text>
+    <text x="22" y="76" fill="#FAF9F6" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="18" font-weight="600">Offline Lead Score</text>
+    <text x="22" y="102" fill="#B4B4BC" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="13">Deterministic Signal Rank</text>
+  </g>
+
+  <g transform="translate(353, 416)">
+    <rect width="254" height="128" rx="12" fill="#FFFFFF" fill-opacity="0.075" stroke="#FAF9F6" stroke-opacity="0.34"/>
+    <text x="22" y="34" fill="#FAF9F6" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="13" font-weight="600">05</text>
+    <text x="232" y="34" text-anchor="end" fill="#FAF9F6" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="12" font-weight="600">Human Gate</text>
+    <text x="22" y="76" fill="#FAF9F6" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="18" font-weight="600">AI Email Draft</text>
+    <text x="22" y="102" fill="#E4E4E7" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="13">Manual Approval Required</text>
+  </g>
+
+  <g transform="translate(626, 416)">
+    <rect width="254" height="128" rx="12" fill="#FFFFFF" fill-opacity="0.075" stroke="#FAF9F6" stroke-opacity="0.34"/>
+    <text x="22" y="34" fill="#FAF9F6" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="13" font-weight="600">06</text>
+    <text x="232" y="34" text-anchor="end" fill="#FAF9F6" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="12" font-weight="600">Operator Dispatch</text>
+    <text x="22" y="76" fill="#FAF9F6" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="18" font-weight="600">CRM Follow-Up</text>
+    <text x="22" y="102" fill="#E4E4E7" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="13">User-Triggered Mail Client</text>
+  </g>
+
+  <!-- Signal Rail & Footer Note -->
+  <line x1="80" y1="596" x2="880" y2="596" stroke="#FAF9F6" stroke-opacity="0.14" stroke-width="1"/>
+  <rect x="80" y="595" width="460" height="2" fill="#FAF9F6" fill-opacity="0.72"/>
+  <text x="80" y="636" fill="#B4B4BC" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="14">
+    OSM · Overpass · Nominatim · Site Audit · Lead Score · Draft Gate · CRM
+  </text>
+  <text x="880" y="636" text-anchor="end" fill="#FAF9F6" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="14" font-weight="600">
+    No automated sending
+  </text>
+</svg>
